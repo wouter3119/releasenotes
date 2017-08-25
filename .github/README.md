@@ -7,7 +7,7 @@ You can find a working version of this on [rsgdeborgen.eu/releases](https://rsgd
 
 ## Navigation
 
-- [Libraries / Frameworks](https://github.com/wouter3119/releasenotes#libraries--framworks)
+- [Libraries / Frameworks](https://github.com/wouter3119/releasenotes#libraries--frameworks)
 - [Installation](https://github.com/wouter3119/releasenotes#installation)
 - [Default API endpoint](https://github.com/wouter3119/releasenotes#default-api-endpoint)
 - [Data Structe / Usage](https://github.com/wouter3119/releasenotes#data-structure--usage)
@@ -34,12 +34,12 @@ This project users several frameworks/libraries/repo's.
 Clone this repo by doing
 
     $git clone https://github.com/wouter3119/releasenotes
-    
+
 Then change the following in your `index.php` file:
 
     base: /releases     // yourdomain.com/releases/ is the default place for release notes
-    
-    
+
+
     data: '',           // All data will be marked(). Optional 'loading' message here.
     name: '',           // This is the name of your programm/piece of software
     desc: '',           // Write a small description for your programm/piece of software
@@ -50,7 +50,7 @@ Then change the following in your `index.php` file:
 Change this in your `.htaccess`
 
     RewriteRule . /releases/index.php [L]  // Match the path to the 'base' path in index.php
-    
+
 That should be it!
 Have fun releasing :)
 
