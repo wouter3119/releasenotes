@@ -8,9 +8,9 @@ A small little project that helps you with publishing release notes easily.
 - [Installation](https://github.com/wouter3119/releasenotes/blob/master/README.md#installation)
 - [Default API endpoint](https://github.com/wouter3119/releasenotes/blob/master/README.md#default-api-endpoint)
 - [Data Structe / Usage](https://github.com/wouter3119/releasenotes/blob/master/README.md#data-structure--usage)
-  - [Explained](https://github.com/wouter3119/releasenotes/blob/master/README.md#explained)
-  - [Strings](https://github.com/wouter3119/releasenotes/blob/master/README.md#content-strings)
-  - [Arrays](https://github.com/wouter3119/releasenotes/blob/master/README.md#content-arrays)
+    - [Explained](https://github.com/wouter3119/releasenotes/blob/master/README.md#explained)
+    - [Strings](https://github.com/wouter3119/releasenotes/blob/master/README.md#content-strings)
+    - [Arrays](https://github.com/wouter3119/releasenotes/blob/master/README.md#content-arrays)
 - [Questions / Issues / Feedback / Feature requests](https://github.com/wouter3119/releasenotes/blob/master/README.md#questions--issues--feedback--feature-requests)
 
 
@@ -28,7 +28,7 @@ This project users several frameworks/libraries/repo's.
 
 Clone this repo by doing
 
-    git clone https://github.com/wouter3119/releasenotes
+    $ git clone https://github.com/wouter3119/releasenotes
     
 Then change the following in your `index.php` file:
 
