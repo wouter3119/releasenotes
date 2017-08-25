@@ -41,8 +41,8 @@
 		data() {
 			return {
 				data: 'Please wait a second so we can load the release notes.',
-				name: 'colloquitree.com',
-				desc: 'These are the (development) release notes of colloquitree.com',
+				name: 'wouterdijkstra.xyz',
+				desc: 'These are the (development) release notes of wouterdijkstra.xyz',
 				go_back_text: 'Click here to go back',
 				api_error: 'Sorry, data could not be retrieved at this moment in time.',
 				api_url: "/releases/data/notes.json"
