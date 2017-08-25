@@ -1,7 +1,20 @@
 # releasenotes
 A small little project that helps you with publishing release notes easily.
 
-## Libraries / Framworks
+
+## Navigation
+
+- [Libraries / Frameworks](https://github.com/wouter3119/releasenotes#libraries--framworks)
+- [Installation](https://github.com/wouter3119/releasenotes#installation)
+- [Default API endpoint](https://github.com/wouter3119/releasenotes#default-api-endpoint)
+- [Data Structe / Usage](https://github.com/wouter3119/releasenotes#data-structure--usage)
+  - [Explained](https://github.com/wouter3119/releasenotes#explained)
+  - [Strings](https://github.com/wouter3119/releasenotes#content-strings)
+  - [Arrays](https://github.com/wouter3119/releasenotes#content-arrays)
+- [Questions / Issues / Feedback / Feature requests](https://github.com/wouter3119/releasenotes#questions--issues--feedback--feature-requests)
+
+
+## Libraries / Frameworks
 
 This project users several frameworks/libraries/repo's.
 
@@ -60,7 +73,7 @@ Every object is expected to have `id`, a `date` and a `content`-section.
 - `date (String)`: Enter the date here, in whatever format you prefer. You can also use this as a title.
 - `content (Object)`: Content should be an object. Inside of object you can define array or strings.
 
-### Content: Strings)
+### Content: Strings
 
     "content": {
             "awesome":"These are this week's release notes!"
@@ -101,8 +114,13 @@ Will render as:
 - New item!
 - Another new item
 
-## Questions / Issues / Feature requests?
+## Questions / Issues / Feedback / Feature requests?
 
 Questions are always welcome, just like issues and feature requests!
 
+Also, feedback is greatly appreciated :)
+
 Happy releasing!
+
+
+*PS*: Licensed under the MIT-License.
