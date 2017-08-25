@@ -4,14 +4,14 @@ A small little project that helps you with publishing release notes easily.
 
 ## Navigation
 
-- [Libraries / Frameworks](https://github.com/wouter3119/releasenotes#libraries--framworks)
-- [Installation](https://github.com/wouter3119/releasenotes#installation)
-- [Default API endpoint](https://github.com/wouter3119/releasenotes#default-api-endpoint)
-- [Data Structe / Usage](https://github.com/wouter3119/releasenotes#data-structure--usage)
-  - [Explained](https://github.com/wouter3119/releasenotes#explained)
-  - [Strings](https://github.com/wouter3119/releasenotes#content-strings)
-  - [Arrays](https://github.com/wouter3119/releasenotes#content-arrays)
-- [Questions / Issues / Feedback / Feature requests](https://github.com/wouter3119/releasenotes#questions--issues--feedback--feature-requests)
+- [Libraries / Frameworks](https://github.com/wouter3119/releasenotes/blob/master/README.md#libraries--framworks)
+- [Installation](https://github.com/wouter3119/releasenotes/blob/master/README.md#installation)
+- [Default API endpoint](https://github.com/wouter3119/releasenotes/blob/master/README.md#default-api-endpoint)
+- [Data Structe / Usage](https://github.com/wouter3119/releasenotes/blob/master/README.md#data-structure--usage)
+  - [Explained](https://github.com/wouter3119/releasenotes/blob/master/README.md#explained)
+  - [Strings](https://github.com/wouter3119/releasenotes/blob/master/README.md#content-strings)
+  - [Arrays](https://github.com/wouter3119/releasenotes/blob/master/README.md#content-arrays)
+- [Questions / Issues / Feedback / Feature requests](https://github.com/wouter3119/releasenotes/blob/master/README.md#questions--issues--feedback--feature-requests)
 
 
 ## Libraries / Frameworks
