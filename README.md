@@ -1,6 +1,8 @@
 # releasenotes
 A small little project that helps you with publishing release notes easily.
 
+## Libraries / Framworks
+
 This project users several frameworks/libraries/repo's.
 
 - Vue
@@ -9,17 +11,98 @@ This project users several frameworks/libraries/repo's.
 - Lodash
 - Marked
 
+## Installation
+
 Clone this repo by doing
 
     git clone https://github.com/wouter3119/releasenotes
     
 Then change the following in your `index.php` file:
 
-    base: /releases             // yourdomain.com/releases/ is the default place for release notes
+    base: /releases     // yourdomain.com/releases/ is the default place for release notes
     
-    data: '',                   // The data variable inside of Vue will get 'marked'. Add content here to display while the api request is taking place
-    name: '',                   // This is the name of your programm/piece of software
-    desc: '',                   // Write a small description for your programm/piece of software
-    go_back_text: '',           // When viewing an individual release note, a link disappears. Here you can define what it should display
-    api_error: '',              // The message that should be displayed when the api call fails
-    api_url: '',                // Your api_url
+    
+    data: '',           // All data will be marked(). Optional 'loading' message here.
+    name: '',           // This is the name of your programm/piece of software
+    desc: '',           // Write a small description for your programm/piece of software
+    go_back_text: '',   // Define the text that appears when viewing individual release note
+    api_error: '',      // The message that should be displayed when the api call fails
+    api_url: '',        // Your api_url
+
+Change this in your `.htaccess`
+
+    RewriteRule . /releases/index.php [L]  // Match the path to the 'base' path in index.php
+    
+That should be it!
+Have fun releasing :)
+
+
+## Default api endpoint
+
+Currently the `api_url` variable is set to `/data/notes.json`.
+
+Feel free to publish your own release notes in through this `json` file.
+
+Read about data structures and usage below!
+
+
+## Data structure / usage
+
+Find an example in `/data/notes.json`
+
+In this file you will find an array, containing objects.
+
+Every object is expected to have `id`, a `date` and a `content`-section.
+
+### Explained
+
+- `id (Int)`: This is the ID, the ID is also referred to in the URLs
+- `date (String)`: Enter the date here, in whatever format you prefer. You can also use this as a title.
+- `content (Object)`: Content should be an object. Inside of object you can define array or strings.
+
+### Content: Strings)
+
+    "content": {
+            "awesome":"These are this week's release notes!"
+        }
+
+Will render as:
+
+**Awesome**: These are this week's release notes!
+
+*note*: All `indexes` are auto capitalized.
+
+If you use 'introduction' as an `index`, it (the index) will be removed, like so:
+
+    "content": {
+            "introduction":"These are this week's release notes!"
+        }
+
+Will render as:
+
+These are this week's release notes!
+
+### Content: Arrays
+
+All arrays inside of `content` will render the same.
+
+The `index` will be capitalized and will be used as the 'title' of that specific section.
+
+All array items will be rendered as `<li>`-items. Example:
+
+    "new":[
+            "New item!",
+            "Another new item"
+        ]
+
+Will render as:
+
+**New**:
+- New item!
+- Another new item
+
+## Questions / Issues / Feature requests?
+
+Questions are always welcome, just like issues and feature requests!
+
+Happy releasing!
