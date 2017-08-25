@@ -1,28 +1,33 @@
 # releasenotes
 A small little project that helps you with publishing release notes easily.
 
+You can find a working version of this on [rsgdeborgen.eu/releases](https://rsgdeborgen.eu/releases)
+
+---
 
 ## Navigation
 
-- [Libraries / Frameworks](https://github.com/wouter3119/releasenotes/blob/master/README.md#libraries--framworks)
-- [Installation](https://github.com/wouter3119/releasenotes/blob/master/README.md#installation)
-- [Default API endpoint](https://github.com/wouter3119/releasenotes/blob/master/README.md#default-api-endpoint)
-- [Data Structe / Usage](https://github.com/wouter3119/releasenotes/blob/master/README.md#data-structure--usage)
-  - [Explained](https://github.com/wouter3119/releasenotes/blob/master/README.md#explained)
-  - [Strings](https://github.com/wouter3119/releasenotes/blob/master/README.md#content-strings)
-  - [Arrays](https://github.com/wouter3119/releasenotes/blob/master/README.md#content-arrays)
-- [Questions / Issues / Feedback / Feature requests](https://github.com/wouter3119/releasenotes/blob/master/README.md#questions--issues--feedback--feature-requests)
+- [Libraries / Frameworks](https://github.com/wouter3119/releasenotes#libraries--framworks)
+- [Installation](https://github.com/wouter3119/releasenotes#installation)
+- [Default API endpoint](https://github.com/wouter3119/releasenotes#default-api-endpoint)
+- [Data Structe / Usage](https://github.com/wouter3119/releasenotes#data-structure--usage)
+  - [Explained](https://github.com/wouter3119/releasenotes#explained)
+  - [Strings](https://github.com/wouter3119/releasenotes#content-strings)
+  - [Arrays](https://github.com/wouter3119/releasenotes#content-arrays)
+- [Questions / Issues / Feedback / Feature requests](https://github.com/wouter3119/releasenotes#questions--issues--feedback--feature-requests)
 
+---
 
 ## Libraries / Frameworks
 
 This project users several frameworks/libraries/repo's.
 
-- Vue
-- Vue Router
+- Vue (and Vue Router)
 - Axios
 - Lodash
 - Marked
+
+---
 
 ## Installation
 
@@ -49,6 +54,7 @@ Change this in your `.htaccess`
 That should be it!
 Have fun releasing :)
 
+---
 
 ## Default api endpoint
 
@@ -58,6 +64,7 @@ Feel free to publish your own release notes in through this `json` file.
 
 Read about data structures and usage below!
 
+---
 
 ## Data structure / usage
 
@@ -114,6 +121,8 @@ Will render as:
 - New item!
 - Another new item
 
+---
+
 ## Questions / Issues / Feedback / Feature requests?
 
 Questions are always welcome, just like issues and feature requests!
@@ -122,5 +131,10 @@ Also, feedback is greatly appreciated :)
 
 Happy releasing!
 
+---
 
-*PS*: Licensed under the MIT-License.
+## License
+
+Copyright (c) 2017, Wouter Dijkstra (www.wouterdijkstra.xyz). (MIT License)
+
+See LICENSE for more info.
