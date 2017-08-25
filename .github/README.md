@@ -28,7 +28,7 @@ This project users several frameworks/libraries/repo's.
 
 Clone this repo by doing
 
-    $ git clone https://github.com/wouter3119/releasenotes
+    $git clone https://github.com/wouter3119/releasenotes
     
 Then change the following in your `index.php` file:
 
