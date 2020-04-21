@@ -35,7 +35,7 @@ Clone this repo by doing
 
     $git clone https://github.com/wouter3119/releasenotes
 
-Then change the following in your `index.html` file:
+First, rename the `releasenotes` directory, to `releases`. Then change the following in your `index.html` file:
 
     base: /releases     // yourdomain.com/releases/ is the default place for release notes
 
