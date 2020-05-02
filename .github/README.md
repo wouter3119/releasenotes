@@ -7,14 +7,14 @@ You can find a working version of this on [rsgdeborgen.eu/releases](https://rsgd
 
 ## Navigation
 
-- [Libraries / Frameworks](https://github.com/wouter3119/releasenotes#libraries--frameworks)
-- [Installation](https://github.com/wouter3119/releasenotes#installation)
-- [Default API endpoint](https://github.com/wouter3119/releasenotes#default-api-endpoint)
-- [Data Structe / Usage](https://github.com/wouter3119/releasenotes#data-structure--usage)
-  - [Explained](https://github.com/wouter3119/releasenotes#explained)
-  - [Strings](https://github.com/wouter3119/releasenotes#content-strings)
-  - [Arrays](https://github.com/wouter3119/releasenotes#content-arrays)
-- [Questions / Issues / Feedback / Feature requests](https://github.com/wouter3119/releasenotes#questions--issues--feedback--feature-requests)
+- [Libraries / Frameworks](https://github.com/woutertoday/releasenotes#libraries--frameworks)
+- [Installation](https://github.com/woutertoday/releasenotes#installation)
+- [Default API endpoint](https://github.com/woutertoday/releasenotes#default-api-endpoint)
+- [Data Structe / Usage](https://github.com/woutertoday/releasenotes#data-structure--usage)
+  - [Explained](https://github.com/woutertoday/releasenotes#explained)
+  - [Strings](https://github.com/woutertoday/releasenotes#content-strings)
+  - [Arrays](https://github.com/woutertoday/releasenotes#content-arrays)
+- [Questions / Issues / Feedback / Feature requests](https://github.com/woutertoday/releasenotes#questions--issues--feedback--feature-requests)
 
 ---
 
@@ -33,7 +33,7 @@ This project users several frameworks/libraries/repo's.
 
 Clone this repo by doing
 
-    $git clone https://github.com/wouter3119/releasenotes
+    $git clone https://github.com/woutertoday/releasenotes
 
 First, rename the `releasenotes` directory, to `releases`. Then change the following in your `index.html` file:
 
@@ -135,6 +135,6 @@ Happy releasing!
 
 ## License
 
-Copyright (c) 2017, Wouter Dijkstra (www.wouterdijkstra.xyz). (MIT License)
+Copyright (c) 2017, Wouter Dijkstra (woutr.co). (MIT License)
 
 See LICENSE for more info.
