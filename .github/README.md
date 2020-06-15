@@ -1,7 +1,7 @@
 # releasenotes
 A small little project that helps you with publishing release notes easily.
 
-You can find a working version of this on [rsgdeborgen.eu/releases](https://rsgdeborgen.eu/releases)
+You can find a working version of this on [postduif.me/releases](https://postduif.me/releases)
 
 ---
 
